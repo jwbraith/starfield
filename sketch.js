@@ -11,7 +11,6 @@ function setup() {
       stroke(random(155));
       if (random() < 0.5) {
         stars.push(new Star(i + random(15), j + random(15)));
-        // point(i + random(15), j + random(15));
       }
     }
   }
